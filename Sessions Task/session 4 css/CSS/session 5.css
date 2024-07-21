@@ -1,0 +1,130 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F1F1F2;
+}
+span{
+    color: #1DCFD1;
+}
+hr{
+    border: 3px solid #333333 ;
+    width: 9%;
+}
+ p{
+    font-size: 18px;
+    line-height: 27px;
+    color: #707070;
+    padding-bottom: 4%;
+    padding-top: 3%;
+}
+/* Global Style */
+.m-auto{
+    margin: auto;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.w-33{
+    width: 30%;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.text-align-center{
+    text-align: center;
+}
+.white-color{
+    color: white;
+}
+/* Custom Style */
+.container{
+    width: 90%;
+    padding-top: 5%;
+}
+.containerIcon{
+    width: 100%;
+    padding: 3%;
+    background-color: whitesmoke;
+}
+.Header{
+    color: #1DCFD1;
+    font-weight: 900;
+    font-size: 23px;
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+.card{
+    width: 30%;
+    margin: 1%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 9px 0px;
+}
+.cardCaption{
+    padding: 2%;
+    background-color: whitesmoke;
+}
+.card img{
+    width: 100%;
+}
+.card-img{
+    position: relative;
+    
+}
+.card-img:hover .overlay{
+display: block;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    top: 0;
+    bottom: 0; 
+    display: none;
+}
+.img-circal{
+    width: 5.5%;
+    position: absolute;
+    top: 48%;
+    left: 26.5%;  
+}
+.img-circal img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.img-circall{
+    width: 5.5%;
+    position: absolute;
+    top: 48%;
+    left: 55.5%;
+}
+.img-circall img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.img-circalll{
+    width: 5.5%;
+    position: absolute;
+    top: 48%;
+    left: 84.5%;
+    z-index: 2;
+}
+.img-circalll img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+/* END OF SESSION 5 (4 TECHNICAL)*/

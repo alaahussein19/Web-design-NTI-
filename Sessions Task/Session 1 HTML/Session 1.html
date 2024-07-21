@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 1</title>
+</head>
+<body>
+    <!-- Create Table -->
+    <h3>Table By HTML</h3>
+    <hr></hr>
+    <table border="2">
+        <tbody>
+            <tr>
+                <td>col 1</td>
+                <td rowspan="2" >col 2</td>
+                <td rowspan="2" colspan="2" >col 3</td>
+            </tr>
+            <tr>
+                <td>col 1 re</td>
+            </tr>
+            <tr>
+                <td>col 1</td>
+                <td>col 2</td>
+                <td>col 3</td>
+                <td>col 4</td>
+            </tr>
+            <tr>
+                <td>col 1</td>
+                <td colspan="3">col 2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">col 1</td>
+                <td>col 2</td>
+                <td>col 3</td>
+                <td>col 4</td>
+            </tr>
+            <tr>
+                
+                <td>col 2</td>
+                <td colspan="2">col 4</td>
+               
+            </tr>
+            <tr>
+                <td colspan="4"></td>
+            </tr>
+        </tbody>
+    </table>
+    <hr></hr>
+   
+
+<!-- Create Form -->
+    <h3> <u>Registration form</u></h3>
+    <form method="post">
+     
+       <label for="firstName">First Name</label>
+       <input id="firstName" name="firstName" type="text" required minlength="3" maxlength="10"> <br><br></td>  
+    
+        <label for="lastName">Last Name</label>
+        <input id="lastName" name="lastName" type="text" required minlength="3" maxlength="10"> <br><br>
+        
+        <label for="nickName">Nick Name</label>
+        <input id="nickName" name="nickName" type="text" required minlength="3" maxlength="10"><br><br>
+      
+        <div></div>
+        <label for="Email">Email</label>
+       <input type="email" id="Email" name="Email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,}"  required ><br><br>
+       
+      <label for="Password">Password</label>
+        <input type="password" id="Password" name="Password" pattern="[0-9].{6,}[A-Z]" required><br><br>
+       
+        <label for="dateOfBirth">Date Of Birth</label>
+        <input id="dateOfBirth" name="dateOfBirth" type="date" required ><br><br>
+       
+        <label for="Gender">Gender</label>
+       <input type="radio" value="Male" name="Gender">Male
+       <input type="radio" value="Female" name="Gender">Female
+       <input type="radio" value="Other" name="Gender">Other
+<br><br>
+        <label for="Mobile">Mobile</label>
+        <input id="Mobile" pattern="[0-9]{5}[-][0-9]{7}[-][0-9]{1}" name="Mobile" type="text" required > <br><br>
+        <!-- Create Data List -->
+        <label for="Status">Choose your Status from the list:</label>
+        <input list="Statuss" name="Status" id="Status">
+        <datalist id="Statuss">
+          <option value="Single">
+          <option value="Married">
+          <option value="Other">
+        </datalist>
+        <!-- Create fieldset -->
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+          </fieldset>
+<!-- Create Buttons -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+ 
+    </form>
+
+
+    
+</body>
+</html>

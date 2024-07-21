@@ -1,0 +1,32 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Global Style */
+
+/* Custom Style */
+.list-section-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.left-side{
+    width: 45%;
+}
+.left-side img{
+    width: 100%;
+}
+
+.right-side{
+    width: 45%;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+

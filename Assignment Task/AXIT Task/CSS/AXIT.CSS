@@ -1,0 +1,589 @@
+/* Reset Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    border: 2px solid rgb(255, 155, 81);
+    margin-bottom: 3%;
+}
+
+/* Global Style */
+/* colors */
+.Primary-color {
+    color: rgb(255, 155, 81);
+}
+
+.bg-Primary-color {
+    background-color: rgb(255, 155, 81);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.bg-sec {
+    background-color: #333333;
+}
+
+/* footer and nav bg-color */
+.bg-black {
+    background-color: black;
+}
+
+.bg-section {
+    background-color: rgb(245, 245, 245);
+}
+
+/*paragraph*/
+.text-align-center {
+    text-align: center;
+}
+
+.landing-section-font {
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 17px;
+    color: #b9b8b8;
+}
+
+.section-font {
+    font-size: 17px;
+    line-height: 25px;
+    color: #7c7b7b;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+/* Grid */
+.d-block {
+    display: block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+/* section 3,4,5 */
+.header-sections {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 8%;
+}
+
+/* Sizes */
+.w-80 {
+    width: 80%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-33 {
+    width: 33.33%;
+}
+
+/* spaces */
+.p-top-container {
+    padding-top: 5%;
+}
+
+.section-padding {
+    padding: 5%;
+}
+
+.p-3 {
+    padding: 3%;
+}
+
+.pb-3 {
+    padding-bottom: 5%;
+}
+
+.Sec-p {
+    padding-bottom: 8%;
+}
+
+.p4 {
+    padding: 4%;
+}
+
+.m-4 {
+    margin: 4%;
+}
+
+/* border */
+.border-radius-50 {
+    border-radius: 50%;
+}
+
+/* Custom Style */
+/* Start-Nav-Bar */
+.nav-container {
+    padding: 15px;
+}
+
+.nav-items a {
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.nav-items ul li {
+    width: 100px;
+    padding-top: 1%;
+}
+
+/* End-Nav-Bar */
+/* Start-Section-1 */
+.landing-section {
+    height: 100vh;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/609d3f1781f4a87463f238cb/9e5bd872-53a8-4220-9cf6-cda1d89b99cd/Venice+canal+Large.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 11%;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.79);
+}
+
+.landing-left-side {
+    width: 40%;
+    position: relative;
+    z-index: 200;
+}
+
+.landing-section h2 {
+    font-size: 34px;
+    margin: 4% 0;
+    font-weight: 400;
+    line-height: 34px;
+}
+/* .AXIT{
+    font-size: 60px;
+    color: #fff;
+}
+.AXIT span{
+    color:rgb(255, 155, 81) ;
+    font-weight: 100;
+} */
+.landing-section P {
+    margin: 4% 0;
+    padding-bottom: 4%;
+}
+
+.CTA-Download {
+    border: 2px solid white;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.CTA-Download:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+}
+
+.borderr {
+    border-bottom: 3px solid white;
+    width: 15%;
+}
+
+.landing-right-side {
+    width: 30%;
+    position: relative;
+    z-index: 200;
+}
+
+.card {
+    width: 93%;
+}
+
+.card h4 {
+    background-color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+}
+
+.card input {
+    margin: 16px auto;
+    padding: 17px;
+    padding-left: 30px;
+    border: none;
+    width: 85%;
+    border-bottom: 1px rgb(205, 205, 205) solid;
+}
+
+.Get-Start-CTA {
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.blackhover:hover {
+    background-color: black;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Section 1 -End */
+/* Section 2 Start */
+
+.Social-media {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 2%;
+}
+
+.Social-media h4 {
+    margin-bottom: 8px;
+}
+
+.Social-media p {
+    font-size: 17px;
+    color: #7c7b7b;
+    font-weight: 500;
+}
+
+.social-media-icons {
+    width: 50%;
+    margin: 2% 0;
+}
+
+.Social-media-Content {
+    width: 40%;
+}
+
+.social-media-icons i {
+    color: rgb(204, 204, 204);
+    font-size: 30px;
+    width: 70px;
+}
+
+.action-icon:hover {
+    color: rgb(255, 155, 81);
+}
+
+
+/* End Social media section */
+.s-3 {
+    padding: 4%;
+    margin-top: 1px;
+}
+
+.sectionn-caption {
+    width: 89%;
+}
+
+.s-3 img {
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+}
+
+.tab {
+    width: 43%;
+    height: 110px;
+    padding-top: 44px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 1px;
+}
+
+.Download-action {
+    padding: 14px 24px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 20%;
+}
+
+.cloud-icon {
+    color: rgb(255, 155, 81);
+    font-size: 20px;
+    border: 2px solid rgb(255, 155, 81);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 2.1;
+    margin-bottom: 30px;
+}
+
+.section-sub-list {
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+}
+
+.section-sub-list p {
+    margin-left: 3%;
+}
+
+.section-sub-list h4 {
+    margin-left: 3%;
+}
+
+.section-sub-list-container {
+    margin-top: 5%;
+}
+
+.sectionn-caption h4 {
+    margin-bottom: 1%;
+}
+
+.third-side img {
+    margin-left: 35%;
+}
+
+.s4 img {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.s5 img {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+/* start section */
+.card-s6 {
+    padding: 2.5%;
+}
+
+.head-section h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.icon {
+    border: 3px solid rgb(255, 155, 81);
+    color: rgb(255, 155, 81);
+    width: 65px;
+    height: 65px;
+    line-height: 2.3;
+    font-size: 25px;
+    margin-bottom: 6%;
+}
+
+/* new */
+.hr-border {
+    margin-top: 1.9%;
+    margin-bottom: 1.9%;
+}
+
+.card-header {
+    padding: 5% 0;
+}
+
+.line {
+    border: #fff solid 1px;
+    width: 100%;
+}
+
+.card-s7 h2 span {
+    font-size: 60px;
+}
+
+.card-s7 {
+    margin: 2%;
+    width: 29%;
+    padding-bottom: 7%;
+}
+
+.class-item-border {
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+/* section 7 */
+.message {
+    padding: 5%;
+    margin: 5% 0 5% 0;
+    position: relative;
+}
+
+.triangle-down {
+    position: absolute;
+    top: 100%;
+    left: 9%;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid rgb(245, 245, 245);
+    position: absolute;
+
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 900;
+
+}
+
+.s8-card {
+    margin: 0 2%;
+    padding-bottom: 8%;
+    width: 29%;
+
+}
+
+.profile-info {
+    width: 40%;
+}
+
+.profile {
+    margin-left: 6%;
+    margin-top: 8%;
+}
+
+.s8-caption {
+    margin: 4% 0 0 10%;
+}
+
+.s8-border {
+    margin-top: 1.9%;
+    margin-bottom: 1.9%;
+    color: #fff;
+}
+
+/* section 9 */
+.head-section9 {
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 1.8%;
+    position: relative;
+    z-index: 5;
+
+}
+
+.head-section9 p {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.layar {
+    position: absolute;
+    background-color: rgba(2, 2, 2, 0.7);
+    inset: 0;
+}
+
+.line-s9 {
+    border: 2px white solid;
+    width: 6%;
+    margin: 3% auto;
+
+}
+
+.s9 {
+    position: relative;
+    margin-top: 3%;
+    background-image: url('https://a.storyblok.com/f/53624/4096x1280/6ade3bcb40/italy_florence-skyline_4096x1280.png/m/4098x1200/smart');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+
+}
+
+/* section 10 contact */
+.form-left-side input {
+    padding: 3%;
+    width: 100%;
+    margin-bottom: 5%;
+    border: none;
+    border-bottom: 1px rgb(205, 205, 205) solid;
+}
+
+.cta {
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+.CTA-send-message {
+    border: 2px solid white;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    left: 44%;
+
+}
+
+.message-contact-us {
+    width: 100%;
+    position: relative;
+    bottom: 100%;
+    border: none;
+    padding: 4%;
+    margin: 7.6% 0 5% 0;
+    border-bottom: 1px rgb(205, 205, 205) solid;
+}
+
+/* End of this task thank you */
+
+
+
+.footer-icon {
+    width: 2.7%;
+    font-size: 18px;
+    color: white;
+}
+
+.icon-container-footer {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+footer {
+    padding: 2% 0 2% 0;
+}
+
+footer p {
+    color: #7c7b7b;
+    font-size: 14px;
+    line-height: 18px;
+}
